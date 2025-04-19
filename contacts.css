@@ -80,3 +80,7 @@
  margin-left: 10px;
   
 }
+.navigation a:hover{
+    padding: 5px;
+    background-color: rgb(160, 156, 156);
+}

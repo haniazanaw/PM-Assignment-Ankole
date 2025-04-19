@@ -25,6 +25,10 @@
     text-decoration: none;
     gap: 3%;
 }
+.navigation a:hover{
+    padding: 5px;
+    background-color: rgb(160, 156, 156);
+}
 #pax{
     color:rgb(224, 180, 113);
 

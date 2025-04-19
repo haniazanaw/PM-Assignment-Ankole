@@ -36,6 +36,10 @@
     text-decoration: none;
     gap: 3%;
 }
+.navigation a:hover{
+    padding: 5px;
+    background-color: rgb(160, 156, 156);
+}
 #button{
     background-color: grey;
     border-radius: 50px ;
