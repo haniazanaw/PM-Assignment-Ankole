@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding:0;
+    overflow: hidden;
+}
+.home{
+    display: flex;
+}
+
+.navigation {
+    background-color: black;
+    cursor: pointer;
+    border-radius: 50px;
+    position: absolute;
+    border: solid black;
+    top:80%;
+    left: 20%;
+    padding: 30px;
+     width: 50%;
+i{
+    padding-left: 20px;
+    }
+}
+.navigation a {
+    color: white;
+    text-decoration: none;
+    margin-left: 60px;
+    font-size: 18px;
+    gap: 3%;
+}
+#button{
+    background-color: grey;
+    border-radius: 50px ;
+    padding:20px;
+    border:none;
+    color: white;
+    margin-left: 10px;
+}
+
+#logo{
+    margin-top:2% ;
+    margin-left: 43%;
+    position: absolute;
+     z-index :2;
+}
+.caption{
+
+    position: absolute;
+    top:40%;
+    left:38%;
+    color:gray;
+    font-size: 150px;
+}
+.slides{
+  background-size:cover;
+  width: 200vh;
+  position: absolute;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review</title>
+    <link rel="stylesheet" href="new.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+</head>
+<body>
+  <div>
+    <i class="fa-solid fa-quote-left" id="right-quote"></i>
+  </div>
+  <img src="image/ankolelogo-removebg-preview.png"id="logo">
+  <div class="icon">
+    <button id="display-left" onclick="plusDivs(-1)">&#10094;</button>
+     <button id="display-right" onclick="plusDivs(1)">&#10095;</button>
+   </div>
+    <div class="comment">
+            <div class="slides">
+            <h2 id="review"> Reviews</h2><br><br>
+       <p>Honestly, it's one of the best places I've ever beento. The staff are so lovely and friendly.They handled <br>
+        everything with the uttermost respect andperfection.I loved the outdoor space, especially at night.They have <br>
+        a fireplace that is cool and gas-poweredfireplaces that keep the outdoor warm and lively..The food is great...<br>
+         especially their beef and grilledlambs are out of this world.Large parking and definitely wheelchair<br>
+          accessible.The ambience is cool and lovely... Will definitelyvisit this place again.
+        <br><br>Winfresha Makokha<br>KITISURU</p>
+            </div>
+            <div class="slides">
+                <h2 id="review"> Reviews</h2><br><br>
+            <p> Best place to eat out. If you Beautiful place, ambience is top notch, swift andfriendly staff. I was really <br>
+              impressed.Kid-friendliness: Kiddie meals are served, generousportions I must add.want to have a <br>
+              niceromantic date this place is perfect. The food is fantastic only be carefulcause the portions are bigger than<br>
+               you would expect.<br><br>Molly Nalwadda<br>KITISURU</p>
+            </div>
+        <div class="slides">
+            <h2 id="review">Reviews</h2><br><br>
+            <p>This place is a stunner! Went here as a group of 12people. The ambience, architectural layout, food, drinks,<br>
+               service, lighting -everything was 💯! No words can describe how much Iloved this place. The waiters paid <br>
+               utmost attention to us and were reallyfriendly. Loved that it has a bonfire area in case you get cold. <br>
+               Everyoneenjoyed their meal and the drinks! It’s definitely become a favorite! 💗
+              <br><br>Sarah Karuri<br>KITISURU</p>
+        </div>
+    </div>
+                  <div>
+                    <i class="fa-solid fa-quote-right" id="left-quote"></i>
+                  </div>
+
+                  <nav class="navigation">
+                    <i class="fa-solid fa-bars" style="color: #B2B6BD;"></i>
+                    <i class="fa-regular fa-clock" style="color: #BCC0C8;"></i>
+                    <a href="index.html">Home</a>
+                    <a href="menu.html">Menu</a>
+                    <a href="reviews.html">Reviews</a>
+                    <a href="events.html">Events</a>
+                    <a href="live.html">Live</a>
+                    <a href="contacts.html">Contacts</a>
+                    <a href="reservations.html" id="button">Reservations</a>
+                </nav>
+
+           <script>
+            var slideIndex = 1;
+            showDivs(slideIndex);
+            function plusDivs(n) {
+              showDivs(slideIndex += n);
+            }
+            function showDivs(n) {
+              var i;
+              var x = document.getElementsByClassName("slides");
+              if (n > x.length) {slideIndex = 1}
+              if (n < 1) {slideIndex = x.length}
+              for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+              }
+              x[slideIndex-1].style.display = "block";
+            }
+            </script>
+    </body>
+    </html>

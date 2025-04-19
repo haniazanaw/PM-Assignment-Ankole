@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    position: absolute;
+    margin-top:-45%;
+    left:40%;
+    width:15;
+    height:20%;
+}
+
+.contacts{
+    background-image: url(image/ankole-discover.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   height: 950px;
+     display: flex;
+     gap: 25px;
+}
+.kitisuru-contact{
+    margin-top: 18%;
+    border: 2px solid;
+    border-color: white;
+    padding: 25px;
+    margin-left: 25%;
+    height: 35%;
+    font-size: x-large;
+    color: white;
+}
+.kilimani-contact{
+    margin-top: 18%;
+    border: 2px solid;
+    border-color: white;
+    padding: 30px;
+    margin-right: 25%;
+    color: white;
+    font-size: x-large;
+    height: 36%;
+}
+
+#kiti-contact{
+    font-size: 25px;
+    padding-top: 25px;
+  }
+  #kili-contact{
+      font-size: 25px;
+      padding-top: 25px;
+  }
+
+  .navigation {
+    background-color: black;
+    cursor: pointer;
+    border-radius: 50px;
+    position: absolute;
+    border: solid black;
+    top:80%;
+    left: 20%;
+    padding: 30px;
+    width: 46.5%;
+    i{
+        padding-left: 20px;
+        }
+
+}
+.navigation a {
+    color: white;
+    text-decoration: none;
+    margin-left: 60px;
+    text-decoration: none;
+    gap: 3%;
+}
+#button{
+    background-color: grey;
+    border-radius: 50px ;
+    padding:20px;
+    border:none;
+    color: white;
+ margin-left: 10px;
+  
+}

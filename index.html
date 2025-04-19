@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ankole Website</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+  <img src="image/ankolelogo-removebg-preview.png"id="logo">
+  <div class="home">
+    
+    <div class="Slides">
+      <img src="image/anokle it self.jpg">
+      <div class="caption"> welcome</div>
+    </div>
+
+    <div class="Slides">
+      <img src="image/ankole-discover.jpg">
+      <div class="caption">discover </div>
+    </div>
+
+    <div class="Slides">
+      <img src="image/anokle steak.jpg" >
+      <div class="caption">experience </div>
+    </div>
+
+    <div class="Slides">
+      <img src="image/anokle drink.jpg" >
+      <div class="caption"> taste</div>
+    </div>
+
+    <div class="Slides">
+      <img src="image/anokle ingredient.jpg">
+      <div class="caption">savour </div>
+    </div>
+
+    <script>
+      var myIndex = 0;
+      carousel();
+
+      function carousel() {
+        var i;
+        var x = document.getElementsByClassName("Slides");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+        }
+        myIndex++;
+        if (myIndex > x.length) { myIndex = 1 }
+        x[myIndex - 1].style.display = "block";
+        setTimeout(carousel, 2000);
+      }
+    </script>
+
+  </div>
+  
+  <nav class="navigation">
+    <i class="fa-solid fa-bars" style="color: #B2B6BD;"></i>
+    <i class="fa-regular fa-clock" style="color: #BCC0C8;"></i>
+    <a href="index.html">Home</a>
+    <a href="menu.html">Menu</a>
+    <a href="reviews.html">Reviews</a>
+    <a href="events.html">Events</a>
+    <a href="live.html">Live</a>
+    <a href="contacts.html">Contacts</a>
+    <a href="reservations.html" id="button">Reservations</a>
+</nav>
+
+
+
+</body>
+
+</html>
