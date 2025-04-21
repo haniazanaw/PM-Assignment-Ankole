@@ -3,7 +3,7 @@ body{
     background-repeat: no-repeat;
     height: 190vh;
 }
-#title{
+#them{
     font-size: 50px;
     margin-top:25% ;
     margin-left: 40%;
@@ -31,10 +31,7 @@ body{
     text-decoration: none;
     gap: 3%;
 }
-.navigation a:hover{
-    padding: 5px;
-    background-color: rgb(160, 156, 156);
-}
+
 #button{
     background-color: grey;
     border-radius: 50px ;
@@ -42,8 +39,4 @@ body{
     border:none;
     color: white;
  margin-left: 10px;
-}
-.navigation a:hover{
-    padding: 5px;
-    background-color: rgb(160, 156, 156);
 }

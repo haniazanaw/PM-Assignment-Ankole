@@ -3,7 +3,7 @@ body{
     background-repeat: no-repeat;
     height: 190vh;
 }
-#title{
+#koko{
     font-size: 50px;
     margin-top:25% ;
     margin-left: 40%;
@@ -24,10 +24,7 @@ body{
         }
 
 }
-.navigation a:hover{
-    padding: 5px;
-    background-color: rgb(160, 156, 156);
-}
+
 .navigation a {
     color: white;
     text-decoration: none;
@@ -41,9 +38,5 @@ body{
     padding:20px;
     border:none;
     color: white;
- margin-left: 10px;
-}
-.navigation a:hover{
-    padding: 5px;
-    background-color: rgb(160, 156, 156);
+    margin-left: 10px;
 }

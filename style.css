@@ -10,9 +10,9 @@
     position: absolute;
    top:50%;
    right:30%;
-    color: rgb(189, 194, 194);
+    color: grey;
     text-align: center;
-font-size: 150px;
+    font-size: 150px;
 }
  
 #logo{
@@ -25,7 +25,7 @@ font-size: 150px;
 
 #img{
     width:100%;
-    height:962px;
+    height:960px;
 }
 .navigation {
     background-color: black;
@@ -49,10 +49,7 @@ font-size: 150px;
     text-decoration: none;
     gap: 3%;
 }
-.navigation a:hover{
-    padding: 5px;
-    background-color: rgb(160, 156, 156);
-}
+
 #button{
     background-color: grey;
     border-radius: 50px ;
@@ -60,5 +57,77 @@ font-size: 150px;
     border:none;
     color: white;
  margin-left: 10px;
+}
+@media screen and (max-width:600px){
+    *{
+        margin:0;
+        padding:0;
+    }
+    body{
+        overflow-y: hidden;
+    }
+    .home{
+        width:100%;
+        height:100%
+    }
+    .caption{
+        position: absolute;
+       top:50%;
+       right:30%;
+        color:grey;
+        text-align: center;
+    font-size: 50px;
+    }
+     
+    #logo{
+        position: absolute;
+        top:5%;
+        width:15%;
+        height:20%;
+      margin-left: 38% ;
+    }
+    
+    #img{
+        width:100%;
+        height:962px;
+    }
+    .navigation {
+        background-color: black;
+        cursor: pointer;
+        border-radius: 50px;
+        position: absolute;
+        border: solid black;
+        top:80%;
+        left: 20%;
+        padding: 30px;
+        width: 46.5%;
+        i{
+            padding-left: 20px;
+            }
+    
+    }
+    .navigation a {
+        color: white;
+        text-decoration: none;
+        margin-left: 60px;
+        text-decoration: none;
+        gap: 3%;
+    }
+    
+    #button{
+        background-color: grey;
+        border-radius: 50px ;
+        padding:20px;
+        border:none;
+        color: white;
+     margin-left: 40%;
+
+    }
+
+
+
+    .hide{
+        display: none;
+    }
 }
   

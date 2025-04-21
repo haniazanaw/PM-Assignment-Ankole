@@ -18,19 +18,16 @@
         }
 }
 .navigation a {
-    color: white;
     text-decoration: none;
     margin-left: 60px;
     color:white;
     text-decoration: none;
     gap: 3%;
 }
-.navigation a:hover{
-    padding: 5px;
-    background-color: rgb(160, 156, 156);
-}
+
 #pax{
-    color:rgb(224, 180, 113);
+    color:rgb(238, 153, 26);
+    font-size: 20px;
 
 }
 #button{
@@ -39,30 +36,31 @@
     padding:20px;
     border:none;
     color: white;
- margin-left: 10px;
+    margin-left: 10px;
   
 }
 .accra{
 background: url('image/anokle\ accra.jpg');
 background-repeat: no-repeat;
-filter: brightness(0.5);
+filter: brightness(0.9);
 text-align: center;
 height: 80vh;
 width: 64vh;
-color: hsl(0, 0%, 100%);
+color: white;
 background-size: cover;
-font-size: 25px;
+font-size: 20px;
 padding-top: 200px;
+
 } 
 
 .nairobi{
 background: url('image/nairobi1.jpg');
 background-repeat: no-repeat;
-filter: brightness(0.5);
+filter: brightness(0.9);
 text-align: center;
 height: 80vh;
 width: 64vh;
-color: #fdfbfb;
+color: white;
 background-size: cover;
 font-size: 25px;
 padding-top: 200px;
@@ -72,11 +70,11 @@ padding-top: 200px;
 
 background: url('image/anokle\ zanzibar.jpg');
 background-repeat: no-repeat;
-filter: brightness(0.5);
+filter: brightness(0.9);
 text-align: center;
 height: 80vh;
 width: 64vh;
-color: hwb(0 96% 3%);
+color: white;
 background-size: cover;
 font-size: 25px;
 padding-top: 200px;
@@ -90,10 +88,9 @@ padding-top: 200px;
     height:20%;
 }
 .events{
-display: inline-flex;
 text-align: center;
 position: relative;
-
+display: inline-flex;
 }
 body{
     overflow: hidden;
@@ -101,4 +98,19 @@ body{
 .accra-text{
     margin-top: 30%;
 
+}
+.pavilion{
+    color: grey;
+    font-size: 20px;
+
+}
+.accra{
+    font-size: 25px;
+
+}
+.nairobi{
+    font-size: 25px;
+}
+.zanzibar{
+    font-size: 25px;
 }
